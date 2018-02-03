@@ -6,10 +6,6 @@ turns = 0
 
 print("\nHi! Lets play a game\nI'm thinking of a number between 1 - 99\n")
 
-# print( randint(1, 99))
-# print(goal)
-
-
 while goal != user_guess:
 	user_guess = int(input('\n'))
 	turns +=1
